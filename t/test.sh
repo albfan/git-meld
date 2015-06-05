@@ -13,7 +13,7 @@
 #
 
 this_script=$(readlink -f $BASH_SOURCE)
-git_meld=$(dirname "$this_script")/git-meld.pl
+git_meld=$(dirname "$this_script")/../git-meld.pl
 handler=$1
 
 # * Add a c      < *branch-2* |
